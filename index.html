@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Text text text</title>
+	<title>Basic Information Form</title>
+	<h1>Basic Information Form </h1>
+	<form method = "GET">
+		<strong>First Name: </strong> <input type = "text" name =  "firstname" required> <br>
+		<strong>Last Name:</strong> <input type = "text" name =  "lastname" required> <br>
+		<strong> Birthday: </strong> <input type = "date" name =  "date" required> <br>
+		<strong>Gender:</strong> <br>
+			Male:   <input type = "radio" name = "gender" value = "male"><br>
+			Female: <input type = "radio" name = "gender" value = "female"><br>
+			Other:  <input type = "radio" name = "gender" value = "other"><br>
+		<strong>Email: </strong> <input type = "email" name =  "email" required> <br>
+		<strong> Password: </strong> <input type = "password" name =  "password" min = "8" > <br>
+		<strong>Preferred Programming Language: </strong> <br>
+	    <select name = "programming_language">
+			<option value = "C++" name = "c++"> C++ </option>
+			<option value = "Java" name =  "java"> Java </option>
+			<option value = "Python" name =  "python"> Python </option>
+			<option value = "Other" name =  "other"> Other </option>
+	    </select>
+		<br>
+		<input type = "submit" value = "Submit!">
+		<input type ="reset" value = "Reset">
+
+	</form>
 </head>
 <body>	
-	Hellllo
+	
 </body>
 
 </html>
+
