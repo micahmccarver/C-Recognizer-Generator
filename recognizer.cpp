@@ -1,10 +1,3 @@
-//----------------------------------------------
-// CS421 HW1
-// Write a recognizer in C++ for L = {x | x is a binary number}.
-// Your name: Micah McCarver
-// File: Recognizer.cpp
-// Date: Due 9/14/18
-//----------------------------------------------
 
 #include<iostream>
 #include<string>
