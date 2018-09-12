@@ -1,0 +1,19 @@
+[mccar070@empress HW1BFiles]$ g++ recognizer.cpp
+[mccar070@empress HW1BFiles]$ ./a.out
+Enter a string: 0
+YES IN L
+
+Enter a string: 1
+YES IN L
+
+Enter a string: 00110
+YES IN L
+
+Enter a string: 2
+NO NOT IN L
+
+Enter a string: 02
+NO NOT IN L
+
+Enter a string: 31
+NO NOT IN L
